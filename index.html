@@ -2,7 +2,7 @@
 <head><title>Killit Bookmarklet</title></head>
 <style>
 @import url(http://fonts.googleapis.com/css?family=Advent+Pro:700);
-a {
+.btn {
   color: #222;
   font-weight: 700;
   text-transform: uppercase;
@@ -16,12 +16,12 @@ a {
   text-decoration: none;
   color: #000;
 }
-body,p,a,h3 {
+body,p,.btn,h3 {
   text-align: center;
   font-family: "Advent Pro";
   letter-spacing: 0.15em;
 }
-p,a {
+p,.btn {
   font-size: 18px;
 }
 body {
@@ -30,7 +30,7 @@ body {
 </style>
 <body>
 <a href="https://github.com/rlemon/Killit"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
-<a href='javascript:function C(a){var b=a.target;"IMG"===b.nodeName&&(b.src="http://i.imgur.com/AM3Ae.png");B();a.preventDefault();a.stopPropagation();return!1}function A(){d.body.insertBefore(s,d.body.firstChild);d.addEventListener("click",C,!1)}function B(){d.body.removeChild(s);d.removeEventListener("click",C,!1)}var d=document,s=d.createElement("style");s.textContent="body * { cursor: crosshair; }";A();;'>Killit</a>
+<a class="btn" href='javascript:function C(a){var b=a.target;"IMG"===b.nodeName&&(b.src="http://i.imgur.com/AM3Ae.png");B();a.preventDefault();a.stopPropagation();return!1}function A(){d.body.insertBefore(s,d.body.firstChild);d.addEventListener("click",C,!1)}function B(){d.body.removeChild(s);d.removeEventListener("click",C,!1)}var d=document,s=d.createElement("style");s.textContent="body * { cursor: crosshair; }";A();;'>Killit</a>
 <p>Drag the button to your bookmarks bar to install.</p>
 <h3>Why not try it out?</h3>
 <img src="sample.gif" title="Annoying Gif" />
