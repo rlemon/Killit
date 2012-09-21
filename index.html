@@ -16,10 +16,12 @@ a {
   text-decoration: none;
   color: #000;
 }
-body,p,a {
+body,p,a,h3 {
   text-align: center;
   font-family: "Advent Pro";
   letter-spacing: 0.15em;
+}
+p,a {
   font-size: 18px;
 }
 body {
@@ -29,5 +31,7 @@ body {
 <body>
 <a href='javascript:function C(a){var b=a.target;"IMG"===b.nodeName&&(b.src="http://i.imgur.com/AM3Ae.png");B();a.preventDefault();a.stopPropagation();return!1}function A(){d.body.insertBefore(s,d.body.firstChild);d.addEventListener("click",C,!1)}function B(){d.body.removeChild(s);d.removeEventListener("click",C,!1)}var d=document,s=d.createElement("style");s.textContent="body * { cursor: crosshair; }";A();;'>Killit</a>
 <p>Drag the button to your bookmarks bar to install.</p>
+<h3>Why not try it out?</h3>
+<img src="sample.gif" title="Annoying Gif" />
 </body>
 </html>
