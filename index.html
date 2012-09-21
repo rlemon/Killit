@@ -1,0 +1,33 @@
+<html>
+<head><title>Killit Bookmarklet</title></head>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:700);
+a {
+  color: #222;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222; 
+  text-shadow: 0px 2px 3px #555;
+  display: inline-block;
+  background-color: #999999;
+  border: 1px solid #222;
+  border-radius: 3px;
+  padding: 6px 12px;
+  text-decoration: none;
+  color: #000;
+}
+body,p,a {
+  text-align: center;
+  font-family: "Advent Pro";
+  letter-spacing: 0.15em;
+  font-size: 18px;
+}
+body {
+  background: #474747 url(http://line25.com/wp-content/uploads/2009/letterpress/demo/bg.png);
+}
+</style>
+<body>
+<a href="javascript:function C(a){var b=a.target;"IMG"===b.nodeName&&(b.src="http://i.imgur.com/AM3Ae.png");B();a.preventDefault();a.stopPropagation();return!1}function A(){d.body.insertBefore(s,d.body.firstChild);d.addEventListener("click",C,!1)}function B(){d.body.removeChild(s);d.removeEventListener("click",C,!1)}var d=document,s=d.createElement("style");s.textContent="body * { cursor: crosshair; }";A();;">Killit</a>
+<p>Drag the button to your bookmarks bar to install.</p>
+</body>
+</html>
